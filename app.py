@@ -6,6 +6,7 @@ from handlers import user_handler
 app = Flask(__name__)
 app.register_blueprint(user_handler.bp)
 
+
 @app.route('/')
 def hello_world():  # put application's code here
     return 'Hello World!'
