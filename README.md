@@ -1,15 +1,14 @@
 # flask-generic
 Generic flask skeleton structure that can be used for any project
 
-## Directory Structure
+### Directory Structure
 ```
 handlers
 model
 db
 ```
 
-## How to run
-
+### How to run
 ```commandline
 python3 app.py 
  * Serving Flask app 'app'
